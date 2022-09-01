@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Hotel</title>
+    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+    <header>
+        <div>
+            <h1>The Best Hotel</h1>
+            <nav>
+                <a href="index.html">
+                    <img id="iconito" src="./imagenes/icono.jpg" width="100" alt="Hotel">
+                </a>
+                <a id="rojo" title="inicio" href="index.html">Home</a>
+                <a class="verde" title="Galeria de fotos" href="galeria.html">Galeria</a>
+                <a class="verde" title="Registro de pasajeros" href="registro.html">Registro</a>
+                <a class="verde" title="Cómo llegar?" href="ubicacion.html">Ubicacion</a>
+            </nav>
+            </div>
+    </header>
+    <main>
+        <br>
+        <h2>Formulario de registro:</h2>
+        <br>
+        <form action="show_data.html"><!--identifica donde manda los datos del form-->
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" required>
+            <br><br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" required>
+            <br><br>
+            <label for="direccion">Dirección</label>
+            <input type="text" name="direccion" id="direccion" placeholder="ingrese calle y número">
+            <br><br>
+            <label for="localidad">Localidad de residencia:</label>
+            <input type="text" name="localidad" id="localidad" required>
+            <br><br>
+            <label for="provincia">Provincia:</label>
+            <select name="provincia" id="provincia">
+                <option value="1">CABA</option>
+                <option value="2">Buenos Aires</option>
+                <option value="3">Catamarca</option>
+                <option value="4">Cordoba</option>
+                <option value="5">Corrientes</option>
+                <option value="6">Chubut</option>
+                <option value="7">Entre Rios</option>
+                <option value="8">Misiones</option>
+            </select>
+            <br><br>
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="1">Argentina</option>
+                <option value="2">Uruguay</option>
+                <option value="3">Paraguay</option>
+                <option value="4">Brasil</option>
+                <option value="5">Chile</option>
+                <option value="6">Estados Unidos</option>
+                <option value="7">Mexico</option>
+                <option value="8">Canada</option>
+            </select>
+            <br><br>
+            <label for="fechan">Fecha nacimiento</label>
+            <input type="date" name="fechan" id="fechan">
+            <br><br>
+            <label for="email">email</label>
+            <input size="40" type="email" name="email" id="email">
+            <br><br>
+            <label for="pago">Medio de Pago:</label>
+                <input type="radio" name="pago" value="TA">Tarjeta de crédito/débito
+                <input type="radio" name="pago" value="TR">Transferencia bancaria
+                <input type="radio" name="pago" value="EF">Efectivo
+            <br><br>
+            <label for="comentarios">Comentarios y sugerencias</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="4" maxlength="100" placeholder="Ingrese sus comentarios (máximo 100 caracteres)"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </main>
+    <footer>
+        <p>Sitio desarrollado por Practica Viernes</p>
+        <a target="_blank" href="https://facebook.com">
+            <img width="25px" src="./imagenes/facebook.png" alt="Facebook">
+        </a>
+        <a target="_blank" href="https://www.instagram.com">
+            <img width="25px" src="./imagenes/instagram.png" alt="Instagram">
+        </a>
+        <a target="-blank" href="https://api.whatsapp.com/send?phone=0123456789">
+            <img width="25px" src="./imagenes/whatsapp.jpg" alt="Whatsapp">
+        </a>
+    </footer>
+</body>
+</html>

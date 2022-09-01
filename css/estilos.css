@@ -1,0 +1,44 @@
+/*esto es un comentario en CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 2px rgb(106, 106, 117);
+    color: aliceblue;
+}
+ a{
+    padding: 15px;
+}
+ footer{
+    text-align: center;
+ }
+ header{ 
+    background-color: rgb(134, 183, 224);
+ }
+ #rojo{
+    color: red;
+    font-size: larger;
+ }
+ .verde{
+    color: rgb(45, 25, 220);
+    font-size: larger;
+ }
+ #iconito{
+   padding-bottom: 5px;
+   border-radius: 20px 20px 20px 20px;
+   }
+ table{
+   padding: 2px;
+   border-radius: 8px;
+ }
+ div{
+   background: linear-gradient(black, deepskyblue)
+ }
+.fotitos{
+   border-radius: 10px;
+   padding: 3px;
+   filter:drop-shadow(3px 3px 3px deepskyblue)
+}
